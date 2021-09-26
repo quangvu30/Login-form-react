@@ -31,7 +31,7 @@ export default function Login({ setToken }) {
       <div className="form-group">
         <label>Email</label>
         <input
-          type="email"
+          type="text"
           className="form-control"
           placeholder="Enter email"
           onChange={(e) => setIdentifier(e.target.value)}
